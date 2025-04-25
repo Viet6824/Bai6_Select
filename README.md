@@ -25,7 +25,7 @@ Mở file sv_tnut.sql và chạy :
 2. dữ liệu đầu vào là tên của sv; sđt; ngày, tháng, năm sinh của sinh viên (của sv đang làm bài tập này)
   ```sql
 INSERT INTO [dbo].[SV] ([masv], [hodem],[ten],  [ns], [lop], [sdt])
-VALUES ('K225480106075', N'Nguyễn Đức Việt', N'Nam', '2004-08-06',  'K58KTP.K01', '0327408619');
+VALUES ('K225480106075', N'Nguyễn Đức ', N'Việt', '2004-08-06',  'K58KTP.K01', '0327408619');
 ```
 3. nhập sql để tìm xem có những sv nào trùng hoàn toàn ngày/tháng/năm với em?
 ![image](https://github.com/user-attachments/assets/a4683cba-f759-4389-b67f-3e589722fb73)
